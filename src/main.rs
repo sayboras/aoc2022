@@ -1,4 +1,5 @@
 mod day_01;
+mod day_02;
 mod file_reader;
 
 fn main() {
@@ -9,6 +10,7 @@ fn main() {
 
     match day_slice {
         "1" => day_01::run(),
+        "2" => day_02::run(),
         _ => println!("No valid day given. Possible options are: 1-25."),
     };
 }
