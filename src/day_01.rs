@@ -22,6 +22,5 @@ fn part1(input: &Vec<Vec<i32>>) {
 fn part2(input: &Vec<Vec<i32>>) {
     let mut total: Vec<i32> = input.iter().map(|x| x.iter().sum()).collect();
     total.sort_by(|a, b| b.cmp(a));
-    let res = total[0] + total[1] + total[2];
-    println!("Part 2 result: {}", res);
+    println!("Part 2 result: {}", total[..3].iter().sum::<i32>());
 }
