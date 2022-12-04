@@ -1,8 +1,8 @@
 mod day_01;
 mod day_02;
 mod day_03;
+mod day_04;
 mod file_reader;
-
 
 fn main() {
     let day: String = std::env::args()

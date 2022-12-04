@@ -1,7 +1,7 @@
 use crate::file_reader;
 
 pub fn run() {
-    let input = file_reader::read_file_in_cwd("src/day_02_input.txt");
+    let input = file_reader::read_file_in_cwd("src/input/day_02.txt");
     part1(&input);
     part2(&input);
 }
